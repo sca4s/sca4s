@@ -54,7 +54,7 @@
       <rect x="32" y="180" width="390" height="8" rx="4" fill="#21262d" />
       <rect x="32" y="180" width="210" height="8" rx="4" fill="url(#bar-purple)" />
 
-      <!-- Storage / Network Load -->
+      <!-- Network Load -->
       <text x="32" y="215" fill="#8b949e">Network [GitHub & Deployments]</text>
       <text x="380" y="215" fill="#00ff87">100 Mbps</text>
       <rect x="32" y="225" width="390" height="8" rx="4" fill="#21262d" />
@@ -90,10 +90,8 @@
     <line x1="0" y1="330" x2="860" y2="330" stroke="#30363d" />
     <text x="32" y="352" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, &#39;SF Mono&#39;, Menlo, Consolas, monospace" font-size="11">F1: help  F2: config  F4: quit  :: Press [Space] to toggle mode</text>
     
-    <!-- Blinking Activity Indicator -->
-    <circle cx="828" cy="347" r="4" fill="#00ffcc">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" />
-    </circle>
+    <!-- Static Indicator Dot -->
+    <circle cx="828" cy="347" r="4" fill="#00ffcc" />
   </g>
   <rect x="0.5" y="0.5" width="859" height="364" rx="11.5" fill="none" stroke="#30363d" />
 </svg>
