@@ -64,13 +64,13 @@
       <!-- Line 10: Output -->
       <text x="24.0" y="277" fill="#79c0ff">kolkata · github.com/sca4s · in/sca4s</text>
 
-      <!-- Line 11: Final Prompt -->
+      <!-- Line 11: Final Prompt with Cursor -->
       <text x="24.0" y="300" fill="#7ee787">sca4s@dev </text>
       <text x="108.0" y="300" fill="#79c0ff"> ~ </text>
       <text x="133.2" y="300" fill="#7d8590">$ </text>
     </g>
 
-    <!-- Static Cursor Block locked precisely next to the final prompt ($ at x:150, line y:300) -->
+    <!-- Blinking Cursor locked neatly beside the final prompt -->
     <rect x="150" y="286" width="8.4" height="17" fill="#d1d7e0" opacity="0.85">
       <animate attributeName="fill-opacity" values="1;0" dur="1s" repeatCount="indefinite" />
     </rect>
